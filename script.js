@@ -8,7 +8,8 @@ let newString = str.toLowerCase();
 		if(newString.charAt(start) !== newString.charAt(end)){
 			return false;
 		}
-		
+		start++;
+		end--;
 	}
 	return true;
 }
